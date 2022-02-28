@@ -2,7 +2,7 @@ import { createStore } from "redux";
 
 
 
-function foo(state = [ { a: 1, b: 1, x: 1 }], action) {
+function foo(state = [ { a: 'A team', b: 'B team', x: 'X count' }], action) {
     if (action.type === "ADD_NUMBER") {
         return [
             ...state,
